@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="multyPlayer.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="./cards/karte.png">
+    <title>BlackJack</title>
+</head>
+<body>
+
+    
+    <h2>Dealer: <span id="dealer-sum"></span></h2>
+    <div id="dealer-cards">
+        <img id="hidden" src="./cards/BACK.png">
+    </div>
+
+    <p id="dealerResults2"></p>
+
+
+    <div id="multyPlayer">
+        <div id="player1">
+            <h2>Player 1: <span id="player1-sum"></span></h2>
+            <div id="player1-cards">
+
+            </div>
+        
+            <br>
+    
+            <button id="hit1">Hit</button>
+            <button id="stay1">Stay</button>
+    
+    
+        </div>
+
+        <div id="space"></div>
+
+        <div id="player2">
+            <h2>Player 2: <span id="player2-sum"></span></h2>
+            <div id="player2-cards">
+
+
+            </div>
+        
+            <br>
+    
+            <button id="hit2">Hit</button>
+            <button id="stay2">Stay</button>
+    
+    
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <button id="end-game">End game</button>
+    <button id="play-again">Play again</button>
+
+    <br>
+    <p id="results" style="font-size: 40px; font-weight: bold;"></p>
+
+    <script src="multyPlayer.js"></script>
+</body>
+</html>
